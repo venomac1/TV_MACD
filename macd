@@ -18,7 +18,7 @@ signal = sma_signal == "SMA" ? ta.sma(macd, signal_length) : ta.ema(macd, signal
 barcolor(color=signal>0 and signal>signal[1] ? color.rgb(5, 137, 9) : signal>0 and signal<signal[1] ? color.rgb(74, 140, 238) : signal<0 and signal>signal[1] ? color.rgb(218, 164, 66) : color.rgb(197, 20, 20))
 
 
-
+//I want to change de code by not price -> RL30
 
 
 
